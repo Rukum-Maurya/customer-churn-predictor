@@ -26,7 +26,7 @@ customer-churn-predictor/
 - **Target Column**: `Churn` (Yes/No)
 - **Source**: [Kaggle / IBM Sample](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
-
+---
 
 ## 🧠 Models Used
 
@@ -37,7 +37,7 @@ customer-churn-predictor/
 
 > Replace *YourValue%* with actual scores from your Logistic Regression model.
 
-
+---
 
 ## 📈 Feature Importance (Logistic Regression)
 
@@ -50,35 +50,36 @@ Top features contributing to churn prediction:
 
 These were visualized using a bar chart of model coefficients.
 
-
+---
 
 ## 🛠️ How to Run Locally
 
 ### 1. Clone the repository
 
-
+```bash
 git clone https://github.com/Rukum-Maurya/customer-churn-predictor.git
 cd customer-churn-predictor
-
+```
 
 ### 2. Install the dependencies
 
-
+```bash
 pip install -r requirements.txt
-
+```
 
 ### 3. Run the notebook
 
-
+```bash
 jupyter notebook notebooks/customer_churn_predictor.ipynb
-
+```
 
 ### 4. (Optional) Run Streamlit app
 
-
+```bash
 streamlit run app.py
+```
 
-
+---
 
 ## ✅ Requirements
 
