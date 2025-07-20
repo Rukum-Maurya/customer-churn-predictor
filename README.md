@@ -1,4 +1,3 @@
-# customer-churn-predictor
 # 📉 Customer Churn Predictor
 
 A machine learning project to predict whether a telecom customer will churn based on their service usage, contract type, and payment history. Built using **Logistic Regression** and **Random Forest**, this project includes EDA, training, model evaluation, and deployment structure.
