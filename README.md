@@ -33,7 +33,7 @@ customer-churn-predictor/
 | Model               | Accuracy | Precision (Churn=Yes) | Recall (Churn=Yes) | F1-score (Churn=Yes) |
 |--------------------|----------|------------------------|--------------------|----------------------|
 | Random Forest       | 78.9%    | 63%                    | 52%                | 57%                  |
-| Logistic Regression | *YourValue%* | *YourValue%*             | *YourValue%*           | *YourValue%*             |
+| Logistic Regression |   80%    |      65%               |       57%          |   61%             |
 
 > Replace *YourValue%* with actual scores from your Logistic Regression model.
 
